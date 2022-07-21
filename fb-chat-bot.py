@@ -535,8 +535,8 @@ class ChatBot(Client):
             elif ("hello" in msg or "hlo" in msg):
                 reply = "Hi"
                 sendMsg()
-            elif (msg == "hi"):
-                reply = "Hello! Putang ina mo"
+            elif (msg == "$hi"):
+                reply = "Hello! Ampanget mo"
                 sendMsg()
 
         except Exception as e:
